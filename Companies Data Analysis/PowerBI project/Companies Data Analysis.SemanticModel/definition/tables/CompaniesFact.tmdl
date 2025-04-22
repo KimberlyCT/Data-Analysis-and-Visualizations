@@ -1,0 +1,149 @@
+table CompaniesFact
+	lineageTag: e3d3c7bf-2446-4682-85b7-2ddde03b765c
+
+	column Name
+		dataType: string
+		lineageTag: ee665eb2-7c3d-4da1-9e0a-78e7e538579b
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Symbol
+		dataType: string
+		lineageTag: d844759e-449a-4172-8393-53f96fb20751
+		summarizeBy: none
+		sourceColumn: Symbol
+
+		annotation SummarizationSetBy = Automatic
+
+	column marketcap
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: d05069ad-6a99-4ae2-9f1f-3bc63a5922a9
+		summarizeBy: none
+		sourceColumn: marketcap
+
+		annotation SummarizationSetBy = User
+
+	column 'price (USD)'
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 73b2060a-fe05-414d-8f41-7dc631d646f0
+		summarizeBy: none
+		sourceColumn: price (USD)
+
+		annotation SummarizationSetBy = User
+
+	column country
+		dataType: string
+		lineageTag: 79c6edf6-2212-45e6-856c-f52976ad4b36
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rank
+		dataType: int64
+		formatString: 0
+		lineageTag: d5308545-e23b-4645-bcb7-f524fa7df93a
+		summarizeBy: sum
+		sourceColumn: Rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column earnings
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 747b7265-ad68-4a06-aee8-2cd2926bab21
+		summarizeBy: sum
+		sourceColumn: earnings
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'rank by earnings'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4322fa01-57f2-412b-abc3-1f7f3273596a
+		summarizeBy: sum
+		sourceColumn: rank by earnings
+
+		annotation SummarizationSetBy = Automatic
+
+	column revenue
+		dataType: decimal
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 6eef2b38-d944-4447-a82a-078a792add48
+		summarizeBy: sum
+		sourceColumn: revenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rank by revenue'
+		dataType: int64
+		formatString: 0
+		lineageTag: d635aa5a-ca28-4e8c-83ab-80fa230a98e8
+		summarizeBy: sum
+		sourceColumn: rank by revenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'P-E ratio'
+		dataType: double
+		lineageTag: 5dad1404-62a2-460c-b0b1-07d139555dfb
+		summarizeBy: sum
+		sourceColumn: P-E ratio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'rank by P-E ratio'
+		dataType: int64
+		formatString: 0
+		lineageTag: 69f2e62d-a415-4617-bfcb-db05aa0b71c4
+		summarizeBy: sum
+		sourceColumn: rank by P-E ratio
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'No.of employees'
+		dataType: int64
+		formatString: 0
+		lineageTag: c3096cc6-5dc9-4210-8fb9-f1593582cafc
+		summarizeBy: sum
+		sourceColumn: No.of employees
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rank by no. of employees'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8eef3dc2-427e-490b-aa57-2bc1e69e7757
+		summarizeBy: sum
+		sourceColumn: rank by no. of employees
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CompaniesFact = m
+		mode: import
+		source =
+				let
+				    Source = Table.NestedJoin(#"companiesmarketcap com - Companies ranked by Market Cap - CompaniesMarketCap com", {"Symbol"}, #"companiesmarketcap com - Companies ranked by earnings - CompaniesMarketCap com", {"Symbol"}, "by earnings", JoinKind.LeftOuter),
+				    #"Merged Queries" = Table.NestedJoin(Source, {"Symbol"}, #"companiesmarketcap com - Companies ranked by revenue - CompaniesMarketCap com", {"Symbol"}, "by revenue", JoinKind.LeftOuter),
+				    #"Expanded companiesmarketcap com - Companies ranked by earnings - CompaniesMarketCap com" = Table.ExpandTableColumn(#"Merged Queries", "by earnings", {"earnings_ttm","Rank"},{"earnings","rank by earnings"}),
+				    #"Expanded companiesmarketcap com - Companies ranked by revenue - CompaniesMarketCap com" = Table.ExpandTableColumn(#"Expanded companiesmarketcap com - Companies ranked by earnings - CompaniesMarketCap com", "by revenue", {"revenue_ttm","Rank"}, {"revenue","rank by revenue"}),
+				    #"Merged Queries1" = Table.NestedJoin(#"Expanded companiesmarketcap com - Companies ranked by revenue - CompaniesMarketCap com", {"Symbol"}, #"companiesmarketcap com - Companies ranked by P_E ratio - CompaniesMarketCap com", {"Symbol"}, "P_E ratio", JoinKind.LeftOuter),
+				    #"Expanded companiesmarketcap com - Companies ranked by P_E ratio - CompaniesMarketCap com" = Table.ExpandTableColumn(#"Merged Queries1", "P_E ratio", {"pe_ratio_ttm","Rank"}, {"P-E ratio","rank by P-E ratio"}),
+				    #"Merged Queries2" = Table.NestedJoin(#"Expanded companiesmarketcap com - Companies ranked by P_E ratio - CompaniesMarketCap com", {"Symbol"}, #"companiesmarketcap com - Companies ranked by number of employees - CompaniesMark", {"Symbol"}, "No. of employees", JoinKind.LeftOuter),
+				    #"Expanded companiesmarketcap com - Companies ranked by number of employees - CompaniesMark" = Table.ExpandTableColumn(#"Merged Queries2", "No. of employees", {"employees_count","Rank"}, {"No.of employees","rank by no. of employees"}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Expanded companiesmarketcap com - Companies ranked by number of employees - CompaniesMark",{{"revenue", Currency.Type}, {"marketcap", Currency.Type}, {"price (USD)", Currency.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

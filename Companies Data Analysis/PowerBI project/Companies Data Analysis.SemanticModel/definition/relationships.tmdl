@@ -1,0 +1,6 @@
+relationship 5369d965-e3c4-c41b-788a-449d1b44663a
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: CompanyDim.Symbol
+	toColumn: CompaniesFact.Symbol
+

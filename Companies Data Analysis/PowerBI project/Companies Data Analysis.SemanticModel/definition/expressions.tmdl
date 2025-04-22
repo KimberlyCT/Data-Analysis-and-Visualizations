@@ -1,0 +1,65 @@
+expression 'companiesmarketcap com - Companies ranked by number of employees - CompaniesMark' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\kimct\Documents\Data Analysis and Visualization\Companies Data Analysis\Data sources\companiesmarketcap.com - Companies ranked by number of employees - CompaniesMarketCap.com.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Name", type text}, {"Symbol", type text}, {"employees_count", Int64.Type}, {"price (USD)", type number}, {"country", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: d2c7ed09-2f8d-4ab4-a725-804979746606
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'companiesmarketcap com - Companies ranked by P_E ratio - CompaniesMarketCap com' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\kimct\Documents\Data Analysis and Visualization\Companies Data Analysis\Data sources\companiesmarketcap.com - Companies ranked by P_E ratio - CompaniesMarketCap.com.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Name", type text}, {"Symbol", type text}, {"pe_ratio_ttm", type number}, {"price (USD)", type number}, {"country", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: 0aa59ecd-8144-4dee-b440-5b76eb998db4
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'companiesmarketcap com - Companies ranked by revenue - CompaniesMarketCap com' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\kimct\Documents\Data Analysis and Visualization\Companies Data Analysis\Data sources\companiesmarketcap.com - Companies ranked by revenue - CompaniesMarketCap.com.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Name", type text}, {"Symbol", type text}, {"revenue_ttm", Int64.Type}, {"price (USD)", type number}, {"country", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: 54520de5-0457-4a96-8818-2332aa918dbb
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'companiesmarketcap com - Companies ranked by earnings - CompaniesMarketCap com' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\kimct\Documents\Data Analysis and Visualization\Companies Data Analysis\Data sources\companiesmarketcap.com - Companies ranked by earnings - CompaniesMarketCap.com.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Name", type text}, {"Symbol", type text}, {"earnings_ttm", Currency.Type}, {"price (USD)", Currency.Type}, {"country", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: b63da39b-9bac-4b28-860a-2e2e8c6bb7ed
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'companiesmarketcap com - Companies ranked by Market Cap - CompaniesMarketCap com' =
+		let
+		    Source = Csv.Document(File.Contents("C:\Users\kimct\Documents\Data Analysis and Visualization\Companies Data Analysis\Data sources\companiesmarketcap.com - Companies ranked by Market Cap - CompaniesMarketCap.com.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+		    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Rank", Int64.Type}, {"Name", type text}, {"Symbol", type text}, {"marketcap", Int64.Type}, {"price (USD)", type number}, {"country", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: e9f05acc-7eef-452e-af53-1d95e51f8db3
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

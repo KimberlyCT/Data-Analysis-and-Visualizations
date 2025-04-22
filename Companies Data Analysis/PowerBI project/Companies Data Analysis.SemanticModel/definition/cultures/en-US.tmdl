@@ -1,0 +1,2197 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "companies_fact": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "companies fact": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company fact": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "CompaniesFact": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fact": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "company statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "company element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "company information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "company statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "company detail": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "company circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Company": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "companies_fact.symbol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "Symbol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "symbol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "icon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pictogram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "logo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.marketcap": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "marketcap"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marketcap": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.price_USD": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "price (USD)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price (USD)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "company_dim": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompanyDim"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company dim": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CompanyDim": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corp dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corps dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "business dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "group dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "conglomerate dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "co inc dim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.486
+			          }
+			        }
+			      ]
+			    },
+			    "company_dim.company_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompanyDim",
+			          "ConceptualProperty": "Company Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "co name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corp name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corps name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "company_dim.symbol": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompanyDim",
+			          "ConceptualProperty": "Symbol"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "symbol": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "icon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pictogram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "logo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "company_dim.companies_fact_country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompanyDim",
+			          "ConceptualProperty": "CompaniesFact_country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "companies fact country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company fact country": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "CompaniesFact_country": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fact country": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "company fact nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "company fact location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fact nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fact location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "Rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flourishing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sheer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "absolute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.earnings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "earnings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "earnings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "paycheck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "retribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "wage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dividend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.rank_by_earnings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "rank by earnings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank by earnings": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.rank_by_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "rank by revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank by revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rank by income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "rank by profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "rank by turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "rank by yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.pe_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "P-E ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "p-e ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "p e ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "e ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p-e relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "p-e percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "p-e quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "p-e relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "p e relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "p e percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "p e quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "p e relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "e relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "e percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Price-Earnings ratio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.rank_by_pe_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "rank by P-E ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank by p-e ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rank by p e ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.no_of_employees": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "No.of employees"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "no.of employees": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "no.of employee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "number .of employee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "companies_fact.rank_by_no__of_employees": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CompaniesFact",
+			          "ConceptualProperty": "rank by no. of employees"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rank by no. of employees": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rank by no. of employee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "companies_fact_has_no_of_employees": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.no_of_employees": {
+			          "Target": {
+			            "Entity": "companies_fact.no_of_employees"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.no_of_employees"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_no_of_employees"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_rank_by_pe_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.rank_by_pe_ratio": {
+			          "Target": {
+			            "Entity": "companies_fact.rank_by_pe_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.rank_by_pe_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_rank_by_pe_ratio"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_pe_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.pe_ratio": {
+			          "Target": {
+			            "Entity": "companies_fact.pe_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.pe_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_pe_ratios"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_rank_by_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.rank_by_revenue": {
+			          "Target": {
+			            "Entity": "companies_fact.rank_by_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.rank_by_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_rank_by_revenue"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.revenue": {
+			          "Target": {
+			            "Entity": "companies_fact.revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_revenues"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "companies_fact.revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "revenue_indicates_how_expensive_companies_facts_are"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_rank_by_earnings": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.rank_by_earnings": {
+			          "Target": {
+			            "Entity": "companies_fact.rank_by_earnings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.rank_by_earnings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_rank_by_earnings"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_earnings": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.earnings": {
+			          "Target": {
+			            "Entity": "companies_fact.earnings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.earnings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_earnings"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "companies_fact.earnings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "earnings_indicates_how_expensive_companies_facts_are"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_rank": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.rank": {
+			          "Target": {
+			            "Entity": "companies_fact.rank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.rank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_ranks"
+			        }
+			      ]
+			    },
+			    "company_dim_has_symbol": {
+			      "Binding": {
+			        "ConceptualEntity": "CompanyDim"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        },
+			        "company_dim.symbol": {
+			          "Target": {
+			            "Entity": "company_dim.symbol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "company_dim"
+			            },
+			            "Object": {
+			              "Role": "company_dim.symbol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "company_dims_have_symbols"
+			        }
+			      ]
+			    },
+			    "company_dim_has_company_name": {
+			      "Binding": {
+			        "ConceptualEntity": "CompanyDim"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        },
+			        "company_dim.company_name": {
+			          "Target": {
+			            "Entity": "company_dim.company_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "company_dim"
+			            },
+			            "Object": {
+			              "Role": "company_dim.company_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "company_dims_have_company_names"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.country": {
+			          "Target": {
+			            "Entity": "companies_fact.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_countries"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_price_USD": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.price_USD": {
+			          "Target": {
+			            "Entity": "companies_fact.price_USD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.price_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_price_USD"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "companies_fact.price_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_USD_indicates_how_expensive_companies_facts_are"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_marketcap": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.marketcap": {
+			          "Target": {
+			            "Entity": "companies_fact.marketcap"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.marketcap"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_marketcaps"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "companies_fact.marketcap"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketcap_indicates_how_expensive_companies_facts_are"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_symbol": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.symbol": {
+			          "Target": {
+			            "Entity": "companies_fact.symbol"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.symbol"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_symbols"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.name": {
+			          "Target": {
+			            "Entity": "companies_fact.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Name": {
+			              "Role": "companies_fact.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_companies_facts"
+			        }
+			      ]
+			    },
+			    "company_dim_in_country_dim": {
+			      "Binding": {
+			        "ConceptualEntity": "CompanyDim"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        },
+			        "country_dim": {
+			          "Target": {
+			            "Entity": "country_dim"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country_dim"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "company_dim"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country_dim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "company_dims_are_in_country_dims"
+			        }
+			      ]
+			    },
+			    "companies_fact_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.country": {
+			          "Target": {
+			            "Entity": "companies_fact.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "companies_fact.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "companies_fact.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_are_in_countries"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_rank_by_no__of_employees": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "companies_fact.rank_by_no__of_employees": {
+			          "Target": {
+			            "Entity": "companies_fact.rank_by_no__of_employees"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "companies_fact.rank_by_no__of_employees"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_rank_by_no__of_employees"
+			        }
+			      ]
+			    },
+			    "companies_fact_has_company_dim": {
+			      "Binding": {
+			        "ConceptualEntity": "CompaniesFact"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        },
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "companies_fact"
+			            },
+			            "Object": {
+			              "Role": "company_dim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "companies_facts_have_company_dims"
+			        }
+			      ]
+			    },
+			    "company_dim_has_country_dim": {
+			      "Binding": {
+			        "ConceptualEntity": "CompanyDim"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        },
+			        "country_dim": {
+			          "Target": {
+			            "Entity": "country_dim"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "company_dim"
+			            },
+			            "Object": {
+			              "Role": "country_dim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "company_dims_have_country_dims"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country_dim"
+			            },
+			            "Object": {
+			              "Role": "company_dim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_dims_have_company_dims"
+			        }
+			      ]
+			    },
+			    "company_dim_has_companies_fact": {
+			      "Binding": {
+			        "ConceptualEntity": "CompanyDim"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "company_dim": {
+			          "Target": {
+			            "Entity": "company_dim"
+			          }
+			        },
+			        "companies_fact": {
+			          "Target": {
+			            "Entity": "companies_fact"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "company_dim"
+			            },
+			            "Object": {
+			              "Role": "companies_fact"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "company_dims_have_companies_facts"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

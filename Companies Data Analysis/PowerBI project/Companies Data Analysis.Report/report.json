@@ -1,0 +1,63 @@
+{
+  "config": "{\"version\":\"5.61\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.62\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"headerSize\":{\"expr\":{\"Literal\":{\"Value\":\"8L\"}}}}}]},\"visibility\":1,\"type\":1}",
+      "displayName": "Tooltip",
+      "displayOption": 3,
+      "filters": "[]",
+      "height": 240.00,
+      "name": "6ed7d5c605ae62b4d855",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"627188b2adc2d154c490\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":320,\"height\":240,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(CompanyDim.Company Name)\"},{\"queryRef\":\"Min(CompanyDim.Symbol)\"},{\"queryRef\":\"Min(CompanyDim.CompaniesFact_country)\"},{\"queryRef\":\"Sum(CompaniesFact.price (USD))\"},{\"queryRef\":\"Sum(CompaniesFact.marketcap)\"},{\"queryRef\":\"Sum(CompaniesFact.revenue)\"},{\"queryRef\":\"Sum(CompaniesFact.No.of employees)\"},{\"queryRef\":\"Sum(CompaniesFact.P-E ratio)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CompanyDim\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"CompaniesFact\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Company Name\"}},\"Function\":3},\"Name\":\"Min(CompanyDim.Company Name)\",\"NativeReferenceName\":\"Company Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Symbol\"}},\"Function\":3},\"Name\":\"Min(CompanyDim.Symbol)\",\"NativeReferenceName\":\"Symbol\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"CompaniesFact_country\"}},\"Function\":3},\"Name\":\"Min(CompanyDim.CompaniesFact_country)\",\"NativeReferenceName\":\"Country\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"price (USD)\"},\"Name\":\"Sum(CompaniesFact.price (USD))\",\"NativeReferenceName\":\"price (USD)\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"marketcap\"},\"Name\":\"Sum(CompaniesFact.marketcap)\",\"NativeReferenceName\":\"marketcap\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"revenue\"},\"Name\":\"Sum(CompaniesFact.revenue)\",\"NativeReferenceName\":\"revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"No.of employees\"},\"Name\":\"Sum(CompaniesFact.No.of employees)\",\"NativeReferenceName\":\"No.of employees1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"P-E ratio\"},\"Name\":\"Sum(CompaniesFact.P-E ratio)\",\"NativeReferenceName\":\"Price-Earnings ratio\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Company Name\"}},\"Function\":3}}}]},\"columnProperties\":{\"CountryDim.CountryCapitalFact_cca3\":{\"displayName\":\"Code\"},\"Min(CompanyDim.Company Name)\":{\"displayName\":\"Company Name\",\"formatString\":\"G\"},\"Min(CompanyDim.Symbol)\":{\"displayName\":\"Symbol\"},\"Min(CompanyDim.CompaniesFact_country)\":{\"displayName\":\"Country\"},\"CountNonNull(CompaniesFact.marketcap)\":{\"displayName\":\"Marketcap\",\"formatString\":null},\"CountNonNull(CompaniesFact.price (USD))\":{\"displayName\":\"Price (USD)\",\"formatString\":null},\"CountNonNull(CompaniesFact.revenue)\":{\"displayName\":\"Revenue\",\"formatString\":null},\"CountNonNull(CompaniesFact.No.of employees)\":{\"displayName\":\"No.of employees\"},\"CountNonNull(CompaniesFact.P-E ratio)\":{\"displayName\":\"Price to Earnings ratio\",\"formatString\":null},\"Sum(CompaniesFact.P-E ratio)\":{\"displayName\":\"Price-Earnings ratio\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"card\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 320.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 320.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Top 20 companies by MarketCap",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "79a286b9718d243a7216",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"07accd1d566b9ac4d563\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.043259715922028,\"y\":0,\"z\":1,\"width\":1269.754978370142,\"height\":720.2451967704083,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(CompaniesFact.marketcap)\"}],\"Details\":[{\"queryRef\":\"CompaniesFact.Name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CompaniesFact\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"marketcap\"}},\"Function\":0},\"Name\":\"CountNonNull(CompaniesFact.marketcap)\",\"NativeReferenceName\":\"Sum of marketcap\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"CompaniesFact.Name\",\"NativeReferenceName\":\"Company\"}]},\"columnProperties\":{\"CountNonNull(CompaniesFact.marketcap)\":{\"displayName\":\"MarketCap\"},\"CompaniesFact.Name\":{\"formatString\":null,\"displayName\":\"Company\"},\"CompaniesFact.Rank\":{\"formatString\":null}},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"objects\":{\"layout\":[{\"properties\":{\"tilingMethod\":{\"expr\":{\"Literal\":{\"Value\":\"'stableSquarified'\"}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"visualTooltip\":[{\"properties\":{\"section\":{\"expr\":{\"Literal\":{\"Value\":\"'6ed7d5c605ae62b4d855'\"}}}}}],\"title\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Top 20 Companies by Market Capitalization'\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'Treemap showing Top 20 international companies by Marketcap (year 2024)'\"}}}}}],\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"8c1cf45c50f81bcfb504\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CompanyDim\"}},\"Property\":\"Company Name\"}},\"type\":\"Categorical\",\"howCreated\":1,\"isHiddenInViewMode\":false,\"ordinal\":0},{\"name\":\"53334428d6d36b963c90\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CompaniesFact\"}},\"Property\":\"Name\"}},\"type\":\"Categorical\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":1},{\"name\":\"5221d812066b65dc022c\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CompaniesFact\"}},\"Property\":\"marketcap\"}},\"Function\":5}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false,\"ordinal\":2},{\"name\":\"d2815b8a1cf3ebaaf5a6\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"CompaniesFact\"}},\"Property\":\"Rank\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"CompaniesFact\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Rank\"}},\"Right\":{\"Literal\":{\"Value\":\"20L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1,\"ordinal\":3}]",
+          "height": 720.25,
+          "width": 1269.76,
+          "x": 10.04,
+          "y": 0.00,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

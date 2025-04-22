@@ -1,0 +1,31 @@
+table CompanyDim
+	lineageTag: 2297b020-2921-4196-a6e0-03c88ff66935
+
+	column 'Company Name'
+		lineageTag: e0174fa9-8369-4359-933c-be9c2a4985a0
+		summarizeBy: none
+		sourceColumn: CompaniesFact[Name]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Symbol
+		lineageTag: 0c8eb0a5-2dc3-4ef1-a6ce-285eb393b908
+		summarizeBy: none
+		sourceColumn: CompaniesFact[Symbol]
+
+		annotation SummarizationSetBy = Automatic
+
+	column CompaniesFact_country
+		lineageTag: cfa32138-da35-40a4-bf71-5ac01114b1d5
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: CompaniesFact[country]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CompanyDim = calculated
+		mode: import
+		source = SELECTCOLUMNS(CompaniesFact,CompaniesFact[Name],CompaniesFact[Symbol],CompaniesFact[country])
+
+	annotation PBI_Id = b8a260689eeb405a9ea0c8e28d3bed9f
+

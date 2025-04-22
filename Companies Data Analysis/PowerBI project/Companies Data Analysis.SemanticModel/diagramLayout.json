@@ -1,0 +1,48 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 53.142856597900391,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 30,
+            "y": 103
+          },
+          "nodeIndex": "CompaniesFact",
+          "nodeLineageTag": "e3d3c7bf-2446-4682-85b7-2ddde03b765c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 344,
+            "y": 0
+          },
+          "nodeIndex": "CompanyDim",
+          "nodeLineageTag": "2297b020-2921-4196-a6e0-03c88ff66935",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
